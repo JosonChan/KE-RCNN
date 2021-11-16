@@ -148,6 +148,7 @@ model = dict(
             featmap_strides=[4, 8, 16, 32]),
         bbox_head=dict(
             type='RelationHeadv4',
+            knowledge_path="data/fashionpedia/train_attr_knowledge_matrix.npy",
             human_roi_feat_area=28*28,
             roi_feat_size=14,
             num_classes=294,

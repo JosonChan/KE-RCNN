@@ -3,7 +3,7 @@ from fashionpedia.fp_eval import FPEval
 
 # annotation and prediction file names here
 anno_file = "data/fashionpedia/instances_attributes_val2020.json"
-res_file = "work_dirs/KE-RCNN_r50_1x/KE-RCNN_r50_1x_val_result.segm.json"
+res_file = "KE-RCNN_r50_1x_val_result.segm.json"
 
 # initialize Fashionpedia groudtruth and prediction api
 fpGt=Fashionpedia(anno_file)

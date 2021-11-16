@@ -23,6 +23,7 @@ class RelationHeadv4(BBoxHead):
                  bbox_cls_fc_dims=1024,
                  patch_size=2,
                  human_roi_feat_area=28*28,
+                 knowledge_path=None,
                  cross_encoder=None,
                  self_decoder=None,
                  cross_decoder=None,
@@ -53,7 +54,7 @@ class RelationHeadv4(BBoxHead):
         self.human_encoder_pos_embed = nn.Parameter(human_encoder_pos_embed, requires_grad=False)
 
         # knowleage matrix
-        knowledge_matrix = np.load('data/fashionpedia/train_attr_knowledge_matrix.npy')
+        knowledge_matrix = np.load(knowledge_path)
         knowledge_matrix_tmp = knowledge_matrix.copy()
         inds = (knowledge_matrix == 0)
         knowledge_matrix_tmp[inds] = np.inf
