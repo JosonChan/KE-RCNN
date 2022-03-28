@@ -43,8 +43,21 @@ Make sure to put the files as the following structure:
 |  Cascade-R101|  1x  | 46.1/42.7        | 39.0/37.5                  |[model]  |
 |  HRNet-w18   |  1x  | 39.6/36.4        | -/-                        |[model]  |
 |  HRNet-w32   |  1x  | 44.3/39.0        | -/-                        |[model]  |
-|  Swin-tiny   |  1x  | 45.0/41.5        | 40.6/38.6                  |[model](https://drive.google.com/file/d/1Y_yVRp7G6E07Mty8TIEWJe7a4dQXl44E/view?usp=sharing)|
+|  Swin-tiny   |  1x  | 44.3/42.1        | 40.6/38.6                  |[model](https://drive.google.com/file/d/1Y_yVRp7G6E07Mty8TIEWJe7a4dQXl44E/view?usp=sharing)|
 |  Swin-small  |  1x  | 47.2/44.3        | 42.1/40.5                  |[model]  |
+
+### The effect of prior knowledge
+
+|  Backbone    |  LR  | Fashionpedia/Wikipedia(AP_iou+f1) | DOWNLOAD |
+|--------------|:----:|:---------------------------------:|:--------:|
+|  R-50        |  1x  | 39.1/39.6                         |[model]   |
+|  R-101       |  1x  | 39.9/40.7                         |[model]   |
+|  Cascade-R-50|  1x  | 41.2/41.6                         |[model]   |
+|  Cascade-R101|  1x  | 42.7/42.3                         |[model]   |
+|  HRNet-w18   |  1x  | 36.4/37.7                         |[model]   |
+|  HRNet-w32   |  1x  | 39.0/39.2                         |[model]   |
+|  Swin-tiny   |  1x  | 42.1/41.7                         |[model]   |
+|  Swin-small  |  1x  | 44.3/45.0                         |[model]   |
 
 ### Kinetics-TPS
 |  Backbone    |  LR  | Acc_p            | Acc_s        |AP_part      | DOWNLOAD |
