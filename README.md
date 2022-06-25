@@ -80,3 +80,13 @@ python eval/fashion_eval.py
 ## Training
 
 Coming soon...
+
+## Citation
+```
+@article{KE-RCNN,
+  Title = {KE-RCNN: Unifying Knowledge based Reasoning into Part-level Attribute Parsing},
+  Author = {Xuanhan Wang and Jingkuan Song and Xiaojia Chen and Lechao Cheng and Lianli Gao and Heng Tao Shen},
+  Year = {2022},
+  Eprint = {arXiv:2206.10146},
+}
+```
