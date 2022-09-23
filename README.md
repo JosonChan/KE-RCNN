@@ -1,6 +1,6 @@
 # KE-R-CNN
 
-Official implementation of **KE-R-CNN** for part-level attribute parsing.
+Official implementation of **KE-R-CNN** for part-level attribute parsing. The new repository has been released at [KE-RCNN](https://github.com/JosonChan1998/KE-RCNN), please follow the new code. This repository will not be maintained!
 
 ## Installation
 - pytorch 1.8.1
